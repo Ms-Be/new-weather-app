@@ -53,8 +53,8 @@ function search(event) {
   
   searchCity (searchInputElement.value);
 }
-let searchInput = document.querySelector("#search-input");
-searchInput.addEventListener("submit", search);
+let searchForm = document.querySelector("#search-form");
+searchForm.addEventListener("submit", search);
 
 searchCity("Paris");
 
