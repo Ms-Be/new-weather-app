@@ -40,7 +40,7 @@ function formatDate(date) {
 
 
 function searchCity(city){
-let apiKey = "b2a5adcct04b33178913oc335f405433";
+let apiKey = "1574b6ct4faf434f9d26b8fb5826o0be";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
 
 axios.get(apiUrl).then(refreshWeather);
@@ -56,7 +56,7 @@ function search(event) {
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
-searchCity("Paris");
+searchCity("Harare");
 
 
 
